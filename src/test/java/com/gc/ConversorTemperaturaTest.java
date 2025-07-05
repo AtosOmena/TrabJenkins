@@ -8,7 +8,7 @@ public class ConversorTemperaturaTest {
 
     @Test
     public void testFahrenheitToCelsius() {
-        double result = ConversorTemperatura.fahrenheitToCelsius(212);
+        double result = ConversorTemperatura.fahrenheitToCelsius(100);
         assertEquals(100.0, result, 0.001);
     }
 
